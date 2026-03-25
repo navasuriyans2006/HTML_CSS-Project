@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A premium profile hub with links to Portfolio, LeetCode, and LinkedIn.">
+    <title>My Profile Hub</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-animation">
+        <div class="blob1"></div>
+        <div class="blob2"></div>
+        <div class="blob3"></div>
+    </div>
+
+    <main class="container">
+        <!-- Profile Header -->
+        <header class="profile-header">
+            <div class="avatar-container">
+                <img src="https://ui-avatars.com/api/?name=N+S&background=random&color=fff&size=150"
+                    alt="Profile Avatar" class="avatar">
+            </div>
+            <h1 class="name">Navasuriyan S</h1>
+            <p class="bio">Software Developer & Tech Enthusiast</p>
+        </header>
+
+        <!-- Links Section -->
+        <section class="links-container">
+            <!-- LeetCode -->
+            <a href="https://leetcode.com/u/Navasuriyan/" class="link-card leetcode" target="_blank"
+                rel="noopener noreferrer">
+                <div class="icon-wrapper">
+                    <!-- Custom SVG representing coding/leetcode -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="icon" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="16 18 22 12 16 6"></polyline>
+                        <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                </div>
+                <span class="link-title">LeetCode</span>
+                <span class="arrow">→</span>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/navasuriyan-s-70a160295/" class="link-card linkedin" target="_blank"
+                rel="noopener noreferrer">
+                <div class="icon-wrapper">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                </div>
+                <span class="link-title">LinkedIn</span>
+                <span class="arrow">→</span>
+            </a>
+        </section>
+
+        <footer>
+            <p>&copy; 2026. Made with ❤️</p>
+        </footer>
+    </main>
+
+
+</body>
+
+</html>
